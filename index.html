@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Edwin Mamani Baltazar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="imagenes/APLogo.png">
+</head>
+<body>
+
+<div class="container mt-3">
+    <div class="row bg-dark navbar-dark" id="navbarinicio">  
+      <div class="col-4">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="imagenes/APLogo.png" alt="Logo" style="width:100px;" class="rounded-pill"> 
+            </a>
+
+          </div>
+        </nav>
+      </div>
+      
+      <div class="col-8" id="redes-login">
+                <!--/////////////-->  
+          <!--inicio navbar-->
+          <!--/////////////-->
+          <ul class="nav rounded float-end">
+            <li class="nav-item">
+              <a class="nav-link" href="https://ar.linkedin.com/">Linkedin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://instagram.com">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://facebook.com">Facebook</a>
+            </li>
+            <li class="nav-item">
+                      <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                  Login
+                </button>
+
+                  <!-- The Modal -->
+                  <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Iniciar Sesíon</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          <!--form login-->
+                          <form action="/action_page.php">
+                            <div class="mb-3 mt-3">
+                              <label for="email" class="form-label">Email:</label>
+                              <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                            </div>
+                            <div class="mb-3">
+                              <label for="pwd" class="form-label">Contraseña:</label>
+                              <input type="password" class="form-control" id="pwd" placeholder="ingrese Contraseña" name="pswd">
+                            </div>
+                            <div class="form-check mb-3">
+                              <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                              </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form> 
+                          <!--fin form-->
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                      </div>
+                    </div>
+                </div>
+            </li>
+          </ul><br>
+        </div>  
+          <!--//////////-->  
+          <!--fin navbar-->
+          <!--//////////--> 
+      </div>  
+    </div> 
+  
+<div class="container mt-3">  
+  <div class="row">
+      <div class="col-12"><img id="banner" src="imagenes/florian.jpg" title="banner" alt="imagencabecera" class="w-100"></div>
+  </div>
+  
+  <div class="row">
+    <div class="col-5" >
+      <div class="card" style="width:300px">
+        <img class="card-img-top" id="imagenperfil" src="imagenes/fotoperfil.jpg" alt="Card image" class="rounded" alt="Cinque Terre">
+        <div class="card-body">
+          <h4 class="card-title">Edwin Mamani Baltazar</h4>
+          <p class="card-text">Developer</p>
+          <a href="#" class="btn btn-primary">Tengo interés en</a>
+          <a href="#" class="btn btn-primary">Añadir Seccíon</a>
+          <a href="#" class="btn btn-primary">Más</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-7" id="textopresentacion">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+
+  <div class="row">
+    <h2>Acerca de </h2>
+    <div class="col-12">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+  
+
+  <div class="row">
+     <h2>Educacíon</h2>
+     <div class="col-2" id="LogoEducacion">
+       <img src="imagenes/ColegioLogo.png" id="Logo_educacion_img">
+     </div>
+     <div class="col-10">
+       <p>Unidad Educativa Santiago I</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     </div>
+   </div>  
+
+    <div class="row">
+      <h2>Hard Skills & Hard Soft Skills</h2>
+      <div class="col-12">
+        <p>Resolucion de problemas</p> 
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%"></div>
+          </div><br>
+        <p>Diseño de sistemas</p>  
+        <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+      </div>
+
+      </div>
+
+    </div>  
+
+  <div class="row">
+    <h2>Proyectos</h2>
+    <div class="col-12">
+        
+    </div>
+  </div>  
+ 
+</div>
+
+</body>
+</html>

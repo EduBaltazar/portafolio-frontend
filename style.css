@@ -1,0 +1,49 @@
+#navbarinicio {
+	border-radius: 1em;
+}
+#redes-login {
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-end;
+	align-items: center;
+}
+#banner {
+	border-radius: 2em 2em 0em 0em;
+}
+
+.card {
+	border: none;
+}
+#textopresentacion {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+#imagenperfil {
+	width: 18em;
+	border-radius: 50%;
+	position: relative;
+	top: -80px;
+	left: 5px;
+}
+#LogoEducacion {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#Logo_educacion_img {
+	width: 100px;
+
+}
+
+p {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+
+}
